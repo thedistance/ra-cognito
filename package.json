@@ -37,6 +37,7 @@
     "jest": "^23.6.0",
     "lint-staged": "^8.1.0",
     "prettier": "^1.15.3",
+    "ramda": "^0.25.0",
     "standard-version": "^4.4.0",
     "xo": "^0.23.0"
   },
@@ -91,22 +92,22 @@
       }
     }
   },
-  "dependencies": {
-    "@material-ui/core": "^1.5.1",
+  "peerDependencies": {
+    "@material-ui/core": "^1.4.0",
     "@material-ui/icons": "^3.0.1",
-    "amazon-cognito-identity-js": "^3.0.6",
-    "aws-amplify": "^1.1.17",
-    "classnames": "^2.2.6",
+    "amazon-cognito-identity-js": "^3.0.3",
+    "aws-amplify": "^1.1.10",
+    "classnames": "2.2.6",
     "prop-types": "^15.6.2",
-    "ra-core": "^2.5.2",
-    "ra-ui-materialui": "^2.5.2",
-    "ramda": "^0.26.1",
-    "react": "^16.7.0",
-    "react-admin": "^2.5.2",
-    "react-dom": "^16.7.0",
-    "react-redux": "^6.0.0",
-    "recompose": "^0.30.0",
-    "redux-form": "^8.0.4"
+    "ra-core": "^2.5.1",
+    "ra-ui-materialui": "^2.5.1",
+    "ramda": "^0.25.0",
+    "react": "^16.5.0",
+    "react-admin": "^2.5.1",
+    "react-dom": "^16.5.0",
+    "react-redux": "5.0.7",
+    "recompose": "0.26.0",
+    "redux-form": "7.4.2"
   },
   "babel": {
     "presets": [
