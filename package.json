@@ -1,6 +1,6 @@
 {
   "name": "ra-cognito",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Authenticate a react admin CMS with cognito user pools.",
   "main": "dist/index.js",
   "scripts": {
