@@ -115,7 +115,7 @@
         "@babel/preset-env",
         {
           "targets": {
-            "node": 4
+            "node": "0.12"
           }
         }
       ]
