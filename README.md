@@ -52,7 +52,7 @@ own styling:
 
 ```js
 import { withStyles } from '@material-ui/core/styles';
-import { Login } from 'ra-cognito/Login';
+import { Login } from 'ra-cognito/dist/Login';
 import pageStyles from './pageStyles';
 
 export default withStyles(pageStyles)(Login);
