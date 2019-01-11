@@ -35,7 +35,7 @@ export class Login extends React.Component {
   handleChangePassword(auth, dispatch) {
     return changePassword(
       R.compose(
-        R.mergeRight(auth),
+        R.merge(auth),
         R.pick(['cognitoUser'])
       )(this.state)
     ).then(result => dispatch(userLogin(result)));
