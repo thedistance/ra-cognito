@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/thedistance/ra-cognito/compare/v1.0.3...v1.0.4) (2019-01-11)
+
+
+### Bug Fixes
+
+* **change-password:** Resolve a crash due to downgrading ramda in peer dependencies. ([b7f4987](https://github.com/thedistance/ra-cognito/commit/b7f4987))
+
+
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/thedistance/ra-cognito/compare/v1.0.2...v1.0.3) (2019-01-10)
 
